@@ -1,0 +1,81 @@
+{
+  "_from": "ir-rnative-sensor-manager",
+  "_id": "ir-rnative-sensor-manager@0.9.3",
+  "_inBundle": false,
+  "_integrity": "sha512-3Trt+EtoER4gu1Pi34fun87xAf+8Wf6RncuYcA0VSHqyeic5jMnvlUySMpX18My/3ItrHdwupVWhUWZ/g2c9ng==",
+  "_location": "/ir-rnative-sensor-manager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ir-rnative-sensor-manager",
+    "name": "ir-rnative-sensor-manager",
+    "escapedName": "ir-rnative-sensor-manager",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ir-rnative-sensor-manager/-/ir-rnative-sensor-manager-0.9.3.tgz",
+  "_shasum": "29d3beca2b829c679237ca05814c480a720d0931",
+  "_spec": "ir-rnative-sensor-manager",
+  "_where": "D:\\project\\example\\nativeModule\\sensor",
+  "author": {
+    "name": "hossein yousefi",
+    "email": "y.hossein92@gmail.com",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/hossein92/ir-rnative-sensor-manager/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A react-native wrapper that allows you to use android and iOS native sensors",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.40",
+    "react": "^17.0.1",
+    "react-native": "^0.63.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  },
+  "files": [
+    "src",
+    "lib",
+    "android/src",
+    "android/build.gradle"
+  ],
+  "homepage": "https://github.com/hossein92/ir-rnative-sensor-manager#readme",
+  "keywords": [
+    "ir-rnative-sensor-manager",
+    "react-native",
+    "android",
+    "ios",
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "thermometer"
+  ],
+  "license": "MIT",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "name": "ir-rnative-sensor-manager",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "react-native": "src/index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hossein92/ir-rnative-sensor-manager.git"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && tsc -p tsconfig-esm.json && tsc -p tsconfig-cjs.json",
+    "prepublish": "yarn build"
+  },
+  "types": "lib/typescript/index.d.ts",
+  "version": "0.9.3"
+}
